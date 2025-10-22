@@ -1,4 +1,8 @@
 # mini setup, all local
+# create file docker-compose.yml and .env in one folder
+# install docker with script
+# call for starting : docker compose up -d 
+# call for stopping : docker compose down   
 # make .env file with NEO4J_PASSWORD=xxx
 # Dashboard: http://localhost:5005/
 # neo4jDB:   http://localhost:7474/browser/
