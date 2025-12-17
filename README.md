@@ -7,7 +7,8 @@ change directory into the cloned repodir <br>
 then install docker on your debian with the script setupDocker.sh <br>
 ./setupDocker.sh <br>
 
-make .env file with initial password NEO4J_PASSWORD=xxx <br>
+make .env file with initial password must be 8 chars at least  
+NEO4J_PASSWORD=xxx <br>
 or choose no password  NEO4J_AUTH=none <br>
 
 now you can start the neo4j and the dashboard server by  <br>
@@ -18,4 +19,8 @@ ss -tulpen <br>
 
 stop everythin by <br>
 docker compose down <br>
+
+look for errors <br>
+docker logs --tail=200 neo4j <br>
+
 
