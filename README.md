@@ -14,16 +14,18 @@ or choose no password  NEO4J_AUTH=none <br>
 now you can start the neo4j and the dashboard server by  <br>
 docker compose up -d <br>
 
-connect to the database in browser user:neo4j pw:xxx
-http://localhost:7474/browser/
+connect to the database in browser user:neo4j pw:xxx <br>
+http://localhost:7474/browser/ <br>
 
-connect to the dashboard by choosing create new
-protocol: bolt 
-hostname: 127.0.0.1
-port: 7687
-database: neo4j
-username: neo4j
-password:xxx
+connect to the dashboard  <br>
+http://localhost:5005/ <br>
+by choosing create new <br>
+protocol: bolt  <br>
+hostname: 127.0.0.1 <br>
+port: 7687 <br>
+database: neo4j <br>
+username: neo4j <br>
+password:xxx <br>
 
 see services running by executing  <br>
 ss -tulpen <br>
