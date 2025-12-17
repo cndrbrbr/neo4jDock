@@ -5,7 +5,7 @@
 #
 # (c) 2025 cndrbrbr
 #####################################
-# chmod u+x setup_docker.sh
+# chmod u+x setupDocker.sh
 #
 
 set -euo pipefail
