@@ -23,4 +23,9 @@ docker compose down <br>
 look for errors <br>
 docker logs --tail=200 neo4j <br>
 
+see containers running by <br>
+docker ps
+CONTAINER ID   IMAGE                      COMMAND                  CREATED         STATUS                            PORTS                                                                                                NAMES
+581b38943258   neo4jlabs/neodash:latest   "/docker-entrypoint.…"   5 seconds ago   Up 4 seconds (health: starting)   80/tcp, 0.0.0.0:5005->5005/tcp, [::]:5005->5005/tcp                                                  neodash
+d99fa364f2c1   neo4j:5                    "tini -g -- /startup…"   5 seconds ago   Up 5 seconds                      0.0.0.0:7474->7474/tcp, [::]:7474->7474/tcp, 7473/tcp, 0.0.0.0:7687->7687/tcp, [::]:7687->7687/tcp   neo4j
 
