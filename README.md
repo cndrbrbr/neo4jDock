@@ -16,4 +16,6 @@ docker compose ip -d <br>
 see services running by executing  <br>
 ss -tulpen <br>
 
+stop everythin by <br>
+docker compose down <br>
 
