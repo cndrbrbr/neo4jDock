@@ -29,6 +29,7 @@ database: neo4j <br>
 username: neo4j <br>
 password:xxx <br>
 
+-----------------in case of trouble-------------------------------------- <br>
 see services running by executing  <br>
 ss -tulpen <br>
 
