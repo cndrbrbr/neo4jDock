@@ -15,9 +15,9 @@ now you can start the neo4j and the dashboard server by  <br>
 docker compose up -d <br>
 
 connect to the database in browser  <br>
+http://localhost:7474/browser/ <br>
 user:neo4j  <br>
 pw:xxx <br>
-http://localhost:7474/browser/ <br>
 
 connect to the dashboard  <br>
 http://localhost:5005/ <br>
