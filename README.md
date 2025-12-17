@@ -13,4 +13,7 @@ or choose no password  NEO4J_AUTH=none <br>
 now you can start the neo4j and the dashboard server by  <br>
 docker compose ip -d <br>
 
+see services running by executing  <br>
+ss -tulpen <br>
+
 
